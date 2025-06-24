@@ -1,5 +1,5 @@
 # LIBRARY MANAGER
-Podes hacer todas las operaciones ##CRUD## con libros, los cuales tienen un autor y genero al que pertenecen, simula una POO pero no termina siendolo, no cuenta con base de datos ya que es todo un trabajo para practicar frontend, con lenguajes de HTML, CSS y Java Script. 
+Podes hacer todas las operaciones CRUD con libros, los cuales tienen un autor y genero al que pertenecen, simula una POO pero no termina siendolo, no cuenta con base de datos ya que es todo un trabajo para practicar frontend, con lenguajes de HTML, CSS y Java Script. 
 ## ✅Usa funciones, archivos, arrays y arrays de arrays a full, creo que no llega a matrices. 
 ¿Como lo abro?
 Facil, tenes que clonar el repositorio en tu PC, esto lo podes hacer desde la casilla verde que dice "<> code" en el main: 
