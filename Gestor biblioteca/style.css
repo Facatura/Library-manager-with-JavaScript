@@ -18,7 +18,6 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 3cm;
-    
 }
 /* Estilos para el menú de navegación */
 nav {
@@ -28,7 +27,6 @@ nav {
     display: flex;
     justify-content: space-around; /* Centra los elementos horizontalmente */
     position: relative;
-    
 }
 
 /* Estilos para los botones principales (Autor, Género, Libro) */
