@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.caja{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(98, 139, 72);
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3cm;
+    
+}
+/* Estilos para el menú de navegación */
+nav {
+    background-color: rgb(106, 181, 71);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around; /* Centra los elementos horizontalmente */
+    position: relative;
+    
+}
+
+/* Estilos para los botones principales (Autor, Género, Libro) */
+.navegador ul { /*textos que tienen los formularios*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegador ul li {
+    display: inline-block; 
+}
+
+.navegador ul li button {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+   
+    cursor: pointer;
+    margin-right: 5px; 
+}
+
+#botonAutorcito{
+    border: 1px solid  rgb(98, 139, 72);
+    color:  rgb(98, 139, 72);
+    border-radius: 40px;
+    background-color: rgb(243, 249, 227);
+}
+#botonGenerito{
+    border: 1px solid  rgb(98, 139, 72);
+    color:  rgb(98, 139, 72);
+    border-radius: 40px;
+    background-color: rgb(243, 249, 227);
+}
+#botonLibrito{
+    border: 1px solid  rgb(98, 139, 72);
+    color:  rgb(98, 139, 72);
+    border-radius: 40px;
+    background-color: rgb(243, 249, 227);
+}
+#contAutor{
+   
+    padding: 10px;
+    position: relative; 
+    
+}
+
+#subItemsA{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    z-index: 1; 
+}
+#contGenero{
+   
+    padding: 10px;
+    position: relative; 
+}
+#subItemsG{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    z-index: 1; 
+}
+#contLibro{
+   
+    padding: 10px;
+    position: relative; 
+}
+#subItemsL{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    z-index: 1; 
+}
+#subItemsA.mostrarlos{
+    display: block;
+}
+#subItemsG.mostrarlos{
+    display: block;
+}
+#subItemsL.mostrarlos{
+    display: block;
+}
+#opcionesAutor{
+    display: flex;
+    color: white;
+    background-color: red;
+}
+
+
+.todo ul li ul li button {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid  rgb(98, 139, 72);
+    color: rgb(98, 139, 72);
+    border-radius: 40px;
+    background-color: rgb(243, 249, 227);
+    margin-top: 5px;
+    
+}
+
+.loDemas{
+    width: 100%;
+    height: 62vh;
+    background-color: rgb(252, 207, 207);
+}
+.cajaFinal{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+    grid-template-areas: "columna1 columna2";
+   background-color: rgb(240, 233, 144);
+}
+
+#resultados{
+        width: 100%;
+        height: 100%;
+        grid-area: columna1;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+#formularios{
+    width: 100%;
+    height: 100%;
+    grid-area: columna2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formularios button{
+    width: 70px;
+    height: 50px;
+}
+#libroPaginas{
+    font-size: 10px;
+}
+#generoLibros{
+    font-size: 10px;
+}
+.noSoyUnResultado{
+    font-size: 30px;
+    margin-bottom: 340px;
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+#superResultado{
+    grid-area: columna1;
+   
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.todo form{
+    color:rgb(98, 139, 72);
+    text-shadow: 0px 1px 1px rgb(255, 255, 255);
+    font-size: 20px;
+}
+.todo form button{
+    border: 1px solid  rgb(98, 139, 72);
+    color: rgb(98, 139, 72);
+    border-radius: 40px;
+    background-color: rgb(243, 249, 227);
+    margin-top: 10px;
+}
+.todo form input{
+    border-color: rgb(98, 139, 72);
+    width: 100%;
+}
+.todo form select{
+    color: rgb(98, 139, 72);
+    border-color: rgb(98, 139, 72);
+    width: 100%;
+}
+
+

@@ -1,0 +1,1 @@
+hacer que autor y genero sean un select, de esta manera me ahorro poner lo de los errores que era un embole y puedo evitar errores garrafales, con eso y las funciones ya estaria, solo metemos el diseño y ya esta
